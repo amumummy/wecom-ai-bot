@@ -1,0 +1,22 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: wecom-ai-bot
+
+wecom:
+  corpid: ${WECOM_CORPID:ww25e77fc2cd72cb61}
+  agent-id: ${WECOM_AGENT_ID:1000002}
+  token: ${WECOM_TOKEN:}
+  aes-key: ${WECOM_AES_KEY:}
+  secret: ${WECOM_SECRET:}
+
+coze:
+  api-base: ${COZE_API_BASE:https://api.coze.cn}
+  bot-id: ${WECOM_COZE_BOT_ID:7704714301290250294}
+  pat: ${WECOM_COZE_PAT:}
+
+logging:
+  level:
+    com.devlab.wecombot: INFO
