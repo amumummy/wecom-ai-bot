@@ -89,6 +89,18 @@ Java 8 / Spring Boot 2.7 / Jackson / 企微服务端 API / Coze 开放平台 API
 
 ## 效果演示
 
+### 企微对话实测
+
+![企微对话实测](screenshots/1-wecom-chat.png)
+
+### Coze 智能体发布页
+
+![Coze发布页](screenshots/2-coze-publish.png)
+
+### 企微后台应用配置
+
+![企微后台应用](screenshots/3-wecom-admin.png)
+
 员工在企微内向自建应用发送消息，机器人基于 Coze 智能体人设实时回复：
 
 > 用户：你好
